@@ -8,6 +8,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import com.kobkob1.kobutil.Reference.References;
+import com.kobkob1.kobutil.init.ModItemsClass;
 
 @Mod(modid= References.MOD_ID,  name= References.MOD_NAME , version= References.MOD_VER)
 
@@ -22,7 +23,7 @@ public class KoblicUtilities {
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		
+		ModItemsClass.init();
 	}
 
 	@Mod.EventHandler

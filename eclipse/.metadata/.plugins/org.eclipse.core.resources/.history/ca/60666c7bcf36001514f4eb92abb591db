@@ -1,0 +1,18 @@
+[
+{
+"modid": "kobutil",
+"name": "Koblic Utilities",
+"description": "Adding utilities that should be in vanilla, but are not!",
+"version": "Indev 1.0.2",
+"credits": "Credit to Recon for an epic logo. Made by ToffeeMax and kobkob1",
+"logoFile": "",
+"mcversion": "1.7.10",
+"url": "",
+"updateUrl": "",
+"authorList": [ "kobkob1" , "ToffeeMax" ],
+"parent":"",
+"screenshots": [],
+"dependencies": [
+]
+}
+]

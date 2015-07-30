@@ -4,16 +4,12 @@
 		<item value="350" key="dialogWidth"/>
 		<item value="250" key="dialogHeight"/>
 		<list key="orderedProviders">
-			<item value="org.eclipse.ui.actions"/>
 		</list>
 		<list key="textArray">
-			<item value="client"/>
 		</list>
 		<list key="orderedElements">
-			<item value="backardHistory"/>
 		</list>
 		<list key="textEntries">
-			<item value="1"/>
 		</list>
 	</section>
 </section>

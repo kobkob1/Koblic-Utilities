@@ -10,4 +10,10 @@
 <fullyQualifiedTypeName name="com.kobkob1.kobutil.proxy.CommonProxy"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.SidedProxy"/>
 <fullyQualifiedTypeName name="com.kobkob1.kobutil.proxy.IProxy"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.item.ItemKU"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.item.ItemNetherCrystal"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.init.ModItemsClass"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
