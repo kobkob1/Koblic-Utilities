@@ -1,9 +1,15 @@
 .gradle
 build/
-build.gradle
-gradlew
+.project
+.classpath
+/eclipse
+/bin
+/settings
+
 # Ignore Gradle GUI config
 gradle-app.setting
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar
+#Dont Ignore 
+!.gitignore
