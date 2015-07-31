@@ -11,9 +11,13 @@
 <fullyQualifiedTypeName name="cpw.mods.fml.common.SidedProxy"/>
 <fullyQualifiedTypeName name="com.kobkob1.kobutil.proxy.IProxy"/>
 <fullyQualifiedTypeName name="net.minecraft.item.Item"/>
-<fullyQualifiedTypeName name="com.kobkob1.kobutil.item.ItemKU"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
 <fullyQualifiedTypeName name="com.kobkob1.kobutil.item.ItemNetherCrystal"/>
 <fullyQualifiedTypeName name="com.kobkob1.kobutil.init.ModItemsClass"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.item.ItemDesertCrystal"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.item.ItemJungleCrystal"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.item.ItemRiverCrystal"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.item.ItemKU"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.item.ItemVillageCrystal"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
 </qualifiedTypeNameHistroy>
