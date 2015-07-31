@@ -11,7 +11,7 @@ public class BlockNetherCrystalBlock extends BlockKU
 		this.setHardness(20.0F);
 		this.setResistance(20.0F);
 		this.canBlockGrass = true;
-		this.setLightLevel(lightValue = 13);
+		this.setLightLevel(1.0F);
 		this.setCreativeTab(CreativeTabKU.KU_TAB);
 	}
 }

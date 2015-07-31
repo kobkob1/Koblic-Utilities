@@ -13,6 +13,7 @@ import java.util.logging.Logger;
 import com.kobkob1.kobutil.Reference.References;
 import com.kobkob1.kobutil.init.ModBlocks;
 import com.kobkob1.kobutil.init.ModItems;
+import com.kobkob1.kobutil.init.recipes;
 
 @Mod(modid= References.MOD_ID,  name= References.MOD_NAME , version= References.MOD_VER)
 
@@ -34,7 +35,7 @@ public class KoblicUtilities {
 	@Mod.EventHandler
 	public void  Init(FMLInitializationEvent event)
 	{
-		
+		recipes.init();
 	}
 
 	@Mod.EventHandler

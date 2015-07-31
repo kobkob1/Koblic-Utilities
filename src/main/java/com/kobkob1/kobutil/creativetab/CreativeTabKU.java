@@ -8,16 +8,18 @@ import net.minecraft.item.Item;
 
 public class CreativeTabKU 
 {
-	public static final CreativeTabs KU_TAB = new CreativeTabs(References.MOD_ID.toLowerCase()) 
+	public static final CreativeTabs KU_TAB = new CreativeTabs(References.MOD_ID)
 	{
-		
 		@Override
-		public Item getTabIconItem() {
-			return ModItems.riverCrystal;
-		}
-		public String getTranslatedTableLabel()
-		{
-			return "Koblic Utilities";
-		}
+		public Item getTabIconItem()
+			{
+				return ModItems.riverCrystal;
+			}
+		@Override
+		public String getTranslatedTabLabel()
+			{
+				return "Koblic Utilities";
+			}
+	
 	};
 }
