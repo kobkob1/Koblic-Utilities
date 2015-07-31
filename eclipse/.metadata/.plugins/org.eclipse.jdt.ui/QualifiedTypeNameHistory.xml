@@ -19,5 +19,23 @@
 <fullyQualifiedTypeName name="com.kobkob1.kobutil.item.ItemRiverCrystal"/>
 <fullyQualifiedTypeName name="com.kobkob1.kobutil.item.ItemKU"/>
 <fullyQualifiedTypeName name="com.kobkob1.kobutil.item.ItemVillageCrystal"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.block.BlockNetherCrystalBlock"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.init.ModBlocks"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.block.BlockRiverCrystalBlock"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.block.BlockJungleCrystalBlock"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.block.BlockDesertCrystalBlock"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.block.BlockKU"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.block.BlockVillageCrystalBlock"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.potion.PotionEffect"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry.ObjectHolder"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.Reference.References"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.init.ModItems"/>
+<fullyQualifiedTypeName name="com.kobkob1.kobutil.creativetab.CreativeTabKU"/>
+<fullyQualifiedTypeName name="net.minecraft.nbt.NBTTagString"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
 </qualifiedTypeNameHistroy>

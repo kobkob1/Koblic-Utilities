@@ -7,10 +7,11 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import com.kobkob1.kobutil.item.ItemNetherCrystal;
 import com.kobkob1.kobutil.item.ItemRiverCrystal;
 import com.kobkob1.kobutil.item.ItemVillageCrystal;
+import com.kobkob1.kobutil.Reference.References;
 import com.kobkob1.kobutil.item.ItemDesertCrystal;
 import com.kobkob1.kobutil.item.ItemJungleCrystal;
-
-public class ModItemsClass 
+@GameRegistry.ObjectHolder(References.MOD_ID)
+public class ModItems 
 	{
 	public static final ItemKU netherCrystal = new ItemNetherCrystal();
 	public static final ItemKU desertCrystal = new ItemDesertCrystal();
