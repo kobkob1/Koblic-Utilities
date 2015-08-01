@@ -20,7 +20,7 @@ import com.kobkob1.kobutil.init.recipes;
 
 public class KoblicUtilities {
 
-	@SidedProxy(clientSide = "com.kobkob1.kobutil.proxy.ClientProxy" , serverSide = "com.kobkob1.kobutil.proxy.ServerProxy")
+	@SidedProxy(clientSide = References.CLIENT_PROXY_CLASS , serverSide = References.SERVER_PROXY_CLASS)
 	public static IProxy proxy;
 	
 	@Mod.Instance("kobutil")
