@@ -2,6 +2,9 @@ package com.kobkob1.kobutil.block;
 
 import com.kobkob1.kobutil.creativetab.CreativeTabKU;
 
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.particle.EntityFX;
+
 public class BlockNetherCrystalBlock extends BlockKU 
 {
 	public BlockNetherCrystalBlock()
@@ -14,4 +17,5 @@ public class BlockNetherCrystalBlock extends BlockKU
 		this.setLightLevel(1.0F);
 		this.setCreativeTab(CreativeTabKU.KU_TAB);
 	}
+	
 }
