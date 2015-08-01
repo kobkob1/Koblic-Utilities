@@ -22,6 +22,7 @@ public class recipes
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.DesertCrystalBlock), "ddd","ddd","ddd", 'd' ,  new ItemStack(ModItems.desertCrystal));
 		GameRegistry.addRecipe(new ItemStack(ModItems.villageCrystal), "ese", "sds", "ese", 'e', new ItemStack(Items.emerald), 's', new ItemStack(Items.wheat_seeds), 'd', new ItemStack(Items.diamond));
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.VillageCrystalBlock), "vvv","vvv","vvv",'v', new ItemStack(ModItems.villageCrystal));
+		//Recipes Using Crystal
 		GameRegistry.addShapelessRecipe(new ItemStack(Items.potato), new ItemStack(ModItems.villageCrystal), new ItemStack(Items.wheat_seeds), new ItemStack(Items.wheat_seeds));
 		GameRegistry.addShapelessRecipe(new ItemStack(Items.carrot), new ItemStack(ModItems.villageCrystal), new ItemStack(Items.wheat_seeds), new ItemStack(Items.spider_eye));
 		GameRegistry.addShapelessRecipe(new ItemStack(Items.nether_wart) , new ItemStack(ModItems.netherCrystal), new ItemStack(Items.wheat_seeds), new ItemStack(Items.wheat_seeds));
