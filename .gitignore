@@ -1,0 +1,22 @@
+## gradle
+/.gradle
+/build
+/bin
+
+## ForgeGradle
+/run
+
+## eclipse
+/eclipse
+
+## intellij
+/out
+/.idea
+/atlassian-ide-plugin.xml
+
+## Private Stuffs
+/private.properties
+!.gitignore
+.settings/
+.project
+.classpath
