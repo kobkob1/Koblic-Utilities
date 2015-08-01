@@ -23,6 +23,7 @@ public class KoblicUtilities {
 	@SidedProxy(clientSide = References.CLIENT_PROXY_CLASS , serverSide = References.SERVER_PROXY_CLASS)
 	public static IProxy proxy;
 	
+	//Safe Instance of Mod- For Reference
 	@Mod.Instance("kobutil")
 	public static KoblicUtilities instance;
 	
