@@ -1,15 +1,22 @@
-.gradle
-build/
+## gradle
+/.gradle
+/build
+/bin
+
+## ForgeGradle
+/run
+
+## eclipse
+/eclipse
+
+## intellij
+/out
+/.idea
+/atlassian-ide-plugin.xml
+
+## Private Stuffs
+/private.properties
+!.gitignore
+.settings/
 .project
 .classpath
-/eclipse
-/bin
-/settings
-
-# Ignore Gradle GUI config
-gradle-app.setting
-
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-#Dont Ignore 
-!.gitignore

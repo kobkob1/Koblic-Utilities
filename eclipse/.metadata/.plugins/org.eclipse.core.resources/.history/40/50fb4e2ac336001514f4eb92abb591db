@@ -1,8 +1,0 @@
-package com.kobkob1.kobutil.item;
-
-import net.minecraft.item.Item;
-
-public class ItemNetherCrystal extends Item {
-	
-
-}
