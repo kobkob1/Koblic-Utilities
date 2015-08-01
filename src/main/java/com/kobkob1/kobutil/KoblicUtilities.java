@@ -1,3 +1,4 @@
+
 package com.kobkob1.kobutil;
 
 import com.kobkob1.kobutil.proxy.IProxy;
@@ -47,4 +48,3 @@ public class KoblicUtilities {
 	
 	
 }
-
