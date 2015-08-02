@@ -1,6 +1,7 @@
 package com.kobkob1.kobutil.init;
 
 import com.kobkob1.kobutil.Reference.References;
+import com.kobkob1.kobutil.block.BlockCarbonatedIronBlock;
 import com.kobkob1.kobutil.block.BlockDesertCrystalBlock;
 import com.kobkob1.kobutil.block.BlockJungleCrystalBlock;
 import com.kobkob1.kobutil.block.BlockKU;
@@ -17,6 +18,7 @@ public class ModBlocks
 	public static final BlockKU JungleCrystalBlock = new BlockJungleCrystalBlock();
 	public static final BlockKU DesertCrystalBlock = new BlockDesertCrystalBlock();
 	public static final BlockKU VillageCrystalBlock = new BlockVillageCrystalBlock();
+	public static final BlockKU CarbonatedIronBlock = new BlockCarbonatedIronBlock();
 	public static void init()
 	{
 		GameRegistry.registerBlock(NetherCrystalBlock, "NetherCrystalBlock");
@@ -24,6 +26,7 @@ public class ModBlocks
 		GameRegistry.registerBlock(JungleCrystalBlock, "JungleCrystalBlock");
 		GameRegistry.registerBlock(DesertCrystalBlock, "DesertCrystalBlock");
 		GameRegistry.registerBlock(VillageCrystalBlock, "VillageCrystalBlock");
+		GameRegistry.registerBlock(CarbonatedIronBlock, "CarbonatedIronBlock");
 		
 	}
 }
