@@ -1,5 +1,5 @@
 # Koblic-Utilities
-Vanilla Minecraft- Responcible for the creation of all mods... in some way... however what is the point of mods? TO MODIFY THINGS!
+Vanilla Minecraft- Responsible for the creation of all mods... in some way... however what is the point of mods? TO MODIFY THINGS!
 Koblic Utilites aims to add a whole bunch of stuff that has a Vanilla Feel, or we feel should be in Vanilla Minecraft!
 
 #Contributing
