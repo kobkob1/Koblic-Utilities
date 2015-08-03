@@ -18,5 +18,4 @@
 /private.properties
 !.gitignore
 .settings/
-.project
 .classpath
