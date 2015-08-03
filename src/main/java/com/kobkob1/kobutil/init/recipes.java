@@ -11,6 +11,9 @@ public class recipes
 {
 	public static void init()
 	{
+		//Industry Recipes
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.CarbonatedIronBlock), new ItemStack(Items.coal), new ItemStack(Items.coal), new ItemStack(Blocks.iron_block));
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.CompressedCharcoalBlock), "ccc", "ccc", "ccc", 'c' , new ItemStack(Items.coal,1));
 		//Crystal Recipes
 		GameRegistry.addRecipe(new ItemStack(ModItems.netherCrystal), "nsn","sds","nsn", 'n', new ItemStack(Blocks.netherrack), 's', new ItemStack(Blocks.soul_sand), 'd', new ItemStack(Items.diamond));
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.NetherCrystalBlock), "nnn", "nnn", "nnn", 'n' , new ItemStack(ModItems.netherCrystal));
@@ -30,6 +33,7 @@ public class recipes
 		GameRegistry.addShapelessRecipe(new ItemStack(Items.pumpkin_seeds), new ItemStack(ModItems.jungleCrystal), new ItemStack(Items.carrot), new ItemStack(Items.carrot));
 		GameRegistry.addShapelessRecipe(new ItemStack(Items.reeds), new ItemStack(ModItems.riverCrystal), new ItemStack(Items.wheat_seeds),new ItemStack(Items.wheat_seeds));
 		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.cactus), new ItemStack(ModItems.desertCrystal),new ItemStack(Items.wheat_seeds),new ItemStack(Items.wheat_seeds));
+		//Blocks to 9 Crystals
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.desertCrystal, 9) , new ItemStack(ModBlocks.DesertCrystalBlock));
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.riverCrystal, 9) , new ItemStack(ModBlocks.RiverCrystalBlock));
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.netherCrystal, 9) , new ItemStack(ModBlocks.NetherCrystalBlock));
@@ -37,5 +41,6 @@ public class recipes
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.villageCrystal, 9) , new ItemStack(ModBlocks.VillageCrystalBlock));
 		//Util Recipes
 		GameRegistry.addRecipe(new ItemStack(Blocks.web), " s ", "s s", " s ", 's' , new ItemStack(Items.string));
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.waterlily), new ItemStack(Items.water_bucket),new ItemStack(Items.wheat_seeds),new ItemStack(Items.rotten_flesh));
 	}
 }
