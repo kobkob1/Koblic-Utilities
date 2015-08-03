@@ -6,10 +6,12 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 import com.kobkob1.kobutil.item.ItemNetherCrystal;
 import com.kobkob1.kobutil.item.ItemRiverCrystal;
+import com.kobkob1.kobutil.item.ItemStoneMace;
 import com.kobkob1.kobutil.item.ItemVillageCrystal;
 import com.kobkob1.kobutil.Reference.References;
 import com.kobkob1.kobutil.item.ItemDesertCrystal;
 import com.kobkob1.kobutil.item.ItemJungleCrystal;
+import com.kobkob1.kobutil.item.ItemSharpPlyers;
 @GameRegistry.ObjectHolder(References.MOD_ID)
 public class ModItems 
 	{
@@ -18,6 +20,8 @@ public class ModItems
 	public static final ItemKU jungleCrystal = new ItemJungleCrystal();
 	public static final ItemKU riverCrystal = new ItemRiverCrystal();
 	public static final ItemKU villageCrystal = new ItemVillageCrystal();
+	public static final ItemKU sharpPlyers = new ItemSharpPlyers();
+	public static final ItemKU stoneMace = new ItemStoneMace();
 	public static void init()
 		{
 		GameRegistry.registerItem(netherCrystal, "NetherCrystal");
@@ -25,6 +29,8 @@ public class ModItems
 		GameRegistry.registerItem(riverCrystal, "RiverCrystal");
 		GameRegistry.registerItem(jungleCrystal, "JungleCrystal");
 		GameRegistry.registerItem(villageCrystal, "VillageCrystal");
+		GameRegistry.registerItem(sharpPlyers, "SharpPlyers");
+		GameRegistry.registerItem(stoneMace, "StoneMace");
 		}
 	
 	}
