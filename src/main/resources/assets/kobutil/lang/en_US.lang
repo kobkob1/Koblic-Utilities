@@ -9,3 +9,4 @@ tile.kobutil:DesertCrystalBlock.name=Desert Crystal Block
 tile.kobutil:JungleCrystalBlock.name=Jungle Crystal Block
 tile.kobutil:VillageCrystalBlock.name=Village Crystal Block
 itemGroup.kobutil = Koblic Utilities
+tile.kobutil:BlockCharcoal.name= Block of Charcoal

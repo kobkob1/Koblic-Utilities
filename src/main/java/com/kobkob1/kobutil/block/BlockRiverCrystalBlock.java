@@ -12,4 +12,6 @@ public class BlockRiverCrystalBlock extends BlockKU {
 		this.canBlockGrass = true;
 		this.setCreativeTab(CreativeTabKU.KU_TAB);
 	}
+
+
 }
