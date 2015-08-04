@@ -1,9 +1,0 @@
-This is where I say thank you to all of the people who helped me along the way, either with code, setting up the code or helping with the graphics!
----Setting up---
--A big thank you to Ortho, Nentify and MeanTomatoes. You helped me set up Java and whatever, and you guys rock!
----Code---
-A thank you to Pahimar, who helped me learn MC's code. He probably wont read this, but thank you! 
-Another big thank you to ToffeeMax, who has cleaned up, put comments in and otherwise been a great help, who I am sure will continue to help as we leave Indev and enter Alpha!
----Graphics---
-A thank you to Recon, who made the logo which can be found inside the mcmod.info file
-A thank you to JujuBeans, who will be making the tool textures and I am sure they will be great!

@@ -13,7 +13,8 @@ public class recipes
 	{
 		//Industry Recipes
 		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.CarbonatedIronBlock), new ItemStack(Items.coal), new ItemStack(Items.coal), new ItemStack(Blocks.iron_block));
-		GameRegistry.addRecipe(new ItemStack(ModBlocks.CompressedCharcoalBlock), "ccc", "ccc", "ccc", 'c' , new ItemStack(Items.coal,1));
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.CompressedCharcoalBlock), "ccc", "ccc", "ccc", 'c' , new ItemStack(Items.coal,9,1));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.coal,9,1), new ItemStack(ModBlocks.CompressedCharcoalBlock) );
 		//Crystal Recipes
 		GameRegistry.addRecipe(new ItemStack(ModItems.netherCrystal), "nsn","sds","nsn", 'n', new ItemStack(Blocks.netherrack), 's', new ItemStack(Blocks.soul_sand), 'd', new ItemStack(Items.diamond));
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.NetherCrystalBlock), "nnn", "nnn", "nnn", 'n' , new ItemStack(ModItems.netherCrystal));
